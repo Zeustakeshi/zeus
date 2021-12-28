@@ -1,0 +1,92 @@
+*{
+   margin: 0 auto;
+}
+.tieude{
+    background-color: chartreuse;
+    text-align: center;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    border-bottom: rgb(252, 0, 0) 10px solid ;
+
+}
+
+#span1{
+    position: absolute;
+    width: 33%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    top: 54px;
+    left: 33%;
+    z-index: 1;
+}    
+#span2{
+    position: inherit;
+    color: rgb(253, 76, 6);
+    text-align: center ;
+
+    width: 90%;
+    height: 20%;
+    left: 5%;
+    top: 2%;
+    right: 5%;
+    z-index: 0;
+    background-color: rgb(255, 255, 255);
+    border: 5px black;
+    border-style: dashed;
+}
+#title{
+    margin-top: 20px;
+}
+#khung{
+    position: inherit;
+    /* width: 90%;
+    height: 20%; */
+    left: 5%;
+    top: 25%;
+    z-index: 0;
+    background-color: rgb(203, 255, 15);
+    background-size: cover;
+    border: 5px black;
+    border-style: dashed;
+}
+#ten{
+    margin: 0px 0px 0px 10px;
+}
+#namsinh{
+    margin-left:0px;
+}
+.hoten{
+    margin: 10px;
+}
+#khung2{
+    position: inherit;
+    right: 5%;
+    top: 25%;
+    z-index: 0;
+    background-color: rgb(203, 255, 15);
+    background-size: cover;
+    border: 5px black;
+    border-style: dashed;
+}
+.gioitinh{
+    margin: 10px;
+}
+.sothich{
+    margin-left: 5px;
+    margin-right: 5px;
+}#khung3{
+    position: inherit;
+    left: 5%;
+    top: 60%;
+    z-index: 10;
+    background-size: cover;
+    border: 5px black;
+    border-style: dashed;
+}
+
+#imginfo{
+    width: 170px;
+    height: 121px;
+}
